@@ -26,6 +26,15 @@ Locate into the app folder then execute:
 >Mongoose
 >bodyParser
 
+Versions:
+body-parser: 1.19.0
+cloudinary: 1.18.1
+cors: 2.8.5
+dotenv: 8.2.0
+express: 4.17.1
+mongoose: 5.8.3
+nodemon: 2.0.2
+
 The database is already running in a free MongoDB's cluster (is not neccesary install a database, you can use this)
 
 
