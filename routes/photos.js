@@ -35,7 +35,7 @@ router.post('/',async(req,res) => {
     }
 });
 
-//Search a specific Photo by name, description or date
+//Search a specific Photo by name or description
 router.get('/search/:search', async(req,res) => {
     try {
         var query={
