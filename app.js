@@ -3,7 +3,6 @@ const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const cloudinary = require('cloudinary').v2;
 require('dotenv/config');
 
 //Middelwares

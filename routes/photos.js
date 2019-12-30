@@ -30,8 +30,6 @@ router.post('/',async(req,res) => {
         res.json(savedPhoto);
     } catch (err) {
         res.json({message: err});
-    }finally{
-        console.log('asdasd' + res);
     }
 });
 

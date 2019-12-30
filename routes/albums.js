@@ -23,8 +23,6 @@ router.post('/',async(req,res) => {
         res.json(savedAlbum);
     } catch (err) {
         res.json({message: err});
-    }finally{
-        //console.log(res.json());
     }
 });
 
