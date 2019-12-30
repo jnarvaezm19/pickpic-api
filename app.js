@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const cloudinary = require('cloudinary').v2;
 const cors = require('cors');
 require('dotenv/config');
 
