@@ -39,7 +39,7 @@ The database is already running in a free MongoDB's cluster (is not neccesary in
 
 
 ## Issues Found ##
-No issues found!
+At the moment to test the installation before send you, I had a problem running the conection with the data base, because the cluster doesn't permit the connection in other Ip address. So I had to habilitate the access to all Ips in the cluster.
 
 ### Anotations ###
 This is also my first NodeJs app, but I felt so good develop this API RestFul App because this is a simple, useful and good technology to do this kind of app. 
