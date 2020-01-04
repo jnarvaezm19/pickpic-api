@@ -11,15 +11,17 @@ The app is an API RestFul, in this you can access to any method or function thro
 ## How to install
 Steps:
 1. you have to clone the repository:
-#####`git clone https://github.com/jnarvaezm19/pickpic-api.git`
+##### `git clone https://github.com/jnarvaezm19/pickpic-api.git`
 2. enter to project folder
-#####`cd pickpic-api`
+##### `cd pickpic-api`
 3. then you must to install all dependencies
-#####`npm install`
+##### `npm install`
+4. Create the environment file
+#### `echo 'DB_CONNECTION = mongodb+srv://user:password@condor-4bxf6.azure.mongodb.net/test?retryWrites=true&w=majority' >.env`
 
 ## How to run ##
 Locate into the app folder then execute:
-#####`npm start`
+##### `npm start`
  
 #### Implemented Libraries ####
 >Express
